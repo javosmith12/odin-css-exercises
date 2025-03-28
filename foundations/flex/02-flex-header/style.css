@@ -10,6 +10,7 @@
   background: papayawhip;
   justify-content: space-between;
   padding: 15px;
+  align-items: center;
 }
 
 .logo {
@@ -18,9 +19,22 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  align-self: center;
 }
 
+/*
+This algo collapses both side until they touch the LOGO
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+*/
+
+/*
+This also collapses both sides but do NOT touch the LOGO leaving space
+*/
 ul {
   display: flex;
   list-style-type: none;
@@ -31,7 +45,7 @@ ul {
 
 ul > * {
   padding: 15px;
-}
+} 
 
 a {
   font-size: 22px;
