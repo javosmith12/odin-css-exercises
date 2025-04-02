@@ -31,7 +31,7 @@ input {
 .footer{
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 14px;
 }
 
 ul {
@@ -39,6 +39,8 @@ ul {
   display: flex;
   list-style: none;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 ul a {
@@ -48,23 +50,21 @@ ul a {
 
 .footer {
   background: #eeeeee;
-  align-content: flex-end;
-}
 
-#odin {
-  display: flex;
-  justify-content: center;
-}
-
-.input,
-.buttons {
-    display: flex;
-    justify-content: center;
 }
 
 .buttons {
   padding: 16px;
   gap: 10px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
 }
 
 
