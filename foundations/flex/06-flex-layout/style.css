@@ -23,4 +23,35 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  /*  ADDED CODE */
 }
+
+/* ADDED CODE */
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+
+/* Apply display property directly on ul */
+ul {
+  display: flex;
+  list-style: none;
+  gap: 16px;
+}
+
+.footer {
+  background: #eeeeee;
+}
+
+#odin {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
