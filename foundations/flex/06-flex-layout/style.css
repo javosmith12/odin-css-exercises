@@ -4,7 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
+  font-family: "Times New Romang", sans-serif;
 }
 
 img {
@@ -23,7 +23,6 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  /*  ADDED CODE */
 }
 
 /* ADDED CODE */
@@ -35,21 +34,37 @@ input {
   padding: 16px;
 }
 
-
-/* Apply display property directly on ul */
 ul {
+  /* Apply display property directly on ul */
   display: flex;
   list-style: none;
   gap: 16px;
 }
 
+ul a {
+  text-decoration: none;
+  color: rgb(135, 129, 129);
+}
+
 .footer {
   background: #eeeeee;
+  align-content: flex-end;
 }
 
 #odin {
   display: flex;
   justify-content: center;
+}
+
+.input,
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons {
+  padding: 16px;
+  gap: 10px;
 }
 
 
